@@ -1,28 +1,195 @@
 body{
 	background-color: lightgray;
+    border:0;
 }
+
 .container {
     width: 960px;
     margin: 0 auto;
-    border: ;
 }
+
+img {
+    float: left;
+    padding: 0 50px 0 0;
+    vertical-align: top;
+}
+
 header {
     border-bottom: 1px solid #666666;
-    padding-bottom: 20px;
-    color: lightgray;
+    padding:0 0 30px 0;
+
 }
 
+.a{
+    padding:0;
+    margin-bottom: 0;
+   vertical-align: top;
+
+}
+
+.a ul{
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+
+.a li{
+    font-size: 12px;
+    padding-left: 0;
+    margin:0;
+    display: inline-block;
+    border-left:2px solid darkgray;
+    width: 150px;
+    vertical-align: top;
+}
+
+.a h5{
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+
+.a p{
+    margin:0;
+    padding:0;
+}
 
 .boxed {
-  	width: 100%;
-    height: 7%;
-    border: darkgreen;
+    width: 100%;
+    height: 5%;
     background-color: darkgreen;
+    display: inline-block;
+    margin-top: none;
+    padding-bottom: 10px;
+
 } 
 
+label p{
+    color: white;
+    padding-left: 20px;
+    float: left;
+    display: left;
+    right: 50px;
+    sp
+}
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;float:right;color: white;background-color: darkgreen;
+    shape-outside: 10px; align-content: 3px;
+}
+input[type=text]:focus {
+    width: 100%;
+}
+
 .box1 {
-	width: 120%;
-    height: 50%;
-    border-top: green;
+    width: 305px;
+    border: 1px solid #E8E8E8;
+    border-top: 5px solid #006800;
+    background-color: white;
+    margin: 15px 0 0 0 ;
+    font-size: 10px;
+    float: left;
+}
+
+.box1 div{
+    list-style: none;
+    padding: 10px 20px;
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.box1 div:nth-child(1){
+    color: #004000;
+    padding: 35px 20px;
+    height: 15px;
+}
+
+.box1 p{
+    margin: 0;
+    color:  #707070 ;
+    margin-bottom: 10px;
+    font-size: 12;
+    color: #A8A8A8;
+}
+
+.Read {
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+    height: 50px;
+}
+
+.box2 {
+    margin:15px 15px 0 15px;
+    width: 305px;
+    line-height: 19px;
+    border-top: 5px solid #006800;
+    font-size: 12px;
+    background-color: white;
+    vertical-align: top;
+    display: inline-block;
+    float: left;
+}
+
+.box2 div{
+    list-style: none;
+    padding: 7px 20px;
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.box2 div:nth-child(1){
+    color: #004000;
+    padding: 23px 15px;
+    height: 6px;
+}
+
+.box2 p{
+    margin: 0;
+    color:  #707070 ;
+    margin-bottom: 10px;
+    font-size: 12;
+    color: #A8A8A8;
+}
+
+.center {
+    height: 70px;
+}
+
+.check {
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+    height: 55px;
+}
+
+.box3 {
+    margin:15px 0 0 15px;
+    width: 300px;
+    line-height: 19px;
+    border-top: 5px solid #006800;
+    background-color: white;
+    font-size: 12px;
+    padding: 0;
+    vertical-align: top;
+    display: inline-block;
+    float: left;
+}
+
+.achiever{
+    color: #004000;
+    padding: 23px 15px;
+    height: 245px;
+
+}
+
+.see {
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+    padding: 30px 0 20px 0;
+    height: 23px;
 
 }
