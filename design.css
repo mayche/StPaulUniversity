@@ -193,3 +193,74 @@ input[type=text]:focus {
     height: 23px;
 
 }
+
+.long {
+    width: 100%;
+    height: 60%;
+    background-color: #f7f8f9;
+    display: inline-block;
+    margin-top: 15px;
+    padding-bottom: 10px;
+} 
+
+.inquiries {
+    color: green;
+    border-top: 5px solid green;
+    padding: 15px 0 0 20px;
+}
+
+.we {
+    color: darkgray;
+    padding: 45px 0 0 20px;
+}
+
+.q {
+    width: 30%;
+    height: 8%;
+    border: 2px solid gray;
+    margin: 16px 15px 0 15px;
+    color: lightgray;
+    float: left;
+    
+}
+.w {
+    width: 30%;
+    height: 8%;
+    border: 2px solid gray;
+    margin: 16px 15px 0 0;
+    color: lightgray;
+    vertical-align: top;
+    display: inline-block;
+    float: left;
+    
+}
+
+.e {
+    width: 30%;
+    height: 8%;
+    border: 2px solid gray;
+    margin: 16px 15px 0 0;
+    color: lightgray;
+    vertical-align: top;
+    display: inline-block;
+    float: left;
+    
+}
+
+.r{
+    width:100%;
+    height: 6%;
+    border: 2px solid gray;
+    margin-top: 75px;
+    padding-top: 9px;
+
+}
+
+.t {
+    width:100%;
+    height: 6%;
+    border: 2px solid gray;
+    margin-top: 10px;
+    padding-top: 9px;
+
+}
